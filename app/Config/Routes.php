@@ -52,3 +52,4 @@ if (file_exists(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {
 
 
 $routes->get('usuario', 'Usuario::Index');
+$routes->get('inicio', 'TiendaController::index');

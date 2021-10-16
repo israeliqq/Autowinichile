@@ -1,3 +1,4 @@
+<?=$header;?>
 <!-- Top header start -->
 <header class="top-header bg-active" id="top-header-2">
     <div class="container">
