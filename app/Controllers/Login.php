@@ -44,7 +44,6 @@ class Login extends Controller
 
 
         
-        $datos['usuario'] = $Usuario->orderBy('id','ASC')->findAll();
         $datos['header'] = view('template/header');
         $datos['footer'] = view('template/footer');
         return view('usuario/listarUsuarios', $datos);
